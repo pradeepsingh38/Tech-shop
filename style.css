@@ -303,33 +303,40 @@ header nav ul li a{
     opacity: 0.6;
     margin-top: 3px;
     display: inline-block;
-  }
+}
 
 
 
 /*--footer start--- */
-footer {
+.footerHome {
     background-color: #111;
-    color: #fff;
+    /* color: #fff; */
     padding: 40px 0;
     font-family: 'Arial', sans-serif;
-  }
+}
   
   .footer-container {
     display: flex;
     justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    width: 100%;
+    margin: 0px 0px 40px 0px;
   }
-  
+  .footer-column1{
+    flex: 8;
+  }
   .footer-column {
-    flex: 1;
+    margin-left: 144px;
+    flex: 4;
   }
   
-  .footer-column h4 {
-    margin-bottom: 20px;
+  .footerHeading {
+    /* margin-top: 20px; */
     font-size: 18px;
+  }
+  .headDiscription{
+    margin-top: 5px;
+     font-size: 15px;
+    opacity: 0.7;
   }
   
   .footer-column ul {
@@ -339,10 +346,12 @@ footer {
   
   .footer-column ul li {
     margin-bottom: 10px;
+    margin-top: 18px;
   }
   
   .footer-column ul li a {
-    color: #fff;
+    color: lightsteelblue;
+    opacity: 0.6;
     text-decoration: none;
     font-size: 14px;
   }
@@ -352,46 +361,55 @@ footer {
   }
   
   .footer-column form {
-    display: flex;
+    /* display: flex; */
   }
   
-  .footer-column input {
+  .footer-column1 input {
+    background-color: #111;
+    margin-top: 5px;
     padding: 10px;
-    border: none;
+    border: 1px solid lightsteelblue;
     outline: none;
     width: 70%;
   }
   
-  .footer-column button {
-    padding: 10px;
+  .footer-column1 button {
+    margin-top: 9px;
+    padding: 8px 80px 8px 20px;
+    /* padding: 19px; */
     border: none;
-    background-color: #e63946;
+    border-radius: 7px;
+    background-color: #ec081b;
     color: #fff;
     cursor: pointer;
     width: 30%;
   }
   
+/* -- footer Bottom Start -- */
   .footer-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    margin: 40px 0px 0px 0px;
     border-top: 1px solid #333;
   }
   
-  .footer-bottom p {
-    margin: 0;
+  .footerdisc {
+    margin-top: 25px;
     font-size: 14px;
   }
   
-  .footer-social a {
-    margin-left: 20px;
+  .social-icons{
+    margin: 25px 70px 0px 0px;
+    display: flex;
+
+    /* justify-content: space-between; */
+    /* align-content: space-between;
+    flex-wrap: wrap; */
+
   }
+/* -- footer Bottom Start -- */
+
   
-  .footer-social img {
-    width: 20px;
-    height: 20px;
-  }
-  /*--footer end--- */
 
   
 
