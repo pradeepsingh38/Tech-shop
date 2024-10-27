@@ -38,14 +38,17 @@ body {
 /* order Start */
 .order{
     margin-top: 50px;
+    display: flex;
 
 }
 
 /* order cart start */
+
 .ordercart{
+    flex: 7;
     background-color: #222;
-    width: 55%;
-    height: 100%;
+    /* width: 70%; */
+    height: 520px;
     margin-top: 40px;
     margin-left: 20px;
     overflow-y: scroll;
@@ -122,3 +125,34 @@ body {
 
 
 /* order summary start */
+.ordersummary{
+    flex: 5;
+    margin-left: 60px;
+}
+.summary-heading{
+    margin-top: 30px;
+
+}
+.summary-details{
+    margin-top: 40px;
+}
+.details-first b ,.details-second b, .details-third b{
+    opacity: 0.6;
+
+}
+.details-second , .details-third{
+    margin-top: -20px;
+}
+
+.spDisPrice,.spDelivery , .sporgprice,.spTotalPrice{
+    margin-left: 304px;
+}
+.hr-summary{
+    opacity: 0.6;
+}
+.totalprice{
+    margin-top: 35px;
+}
+.checkout-btn{
+    margin-top: -10px;
+}
