@@ -1,0 +1,105 @@
+*{  
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    /* background-color: #121212; */
+    background-color: #1c1c1c;
+    color: lightsteelblue;
+}
+
+/* header Start  */
+.header{
+    display: flex;
+    margin-top: 10px;   
+}
+.headings{
+    flex: 1;
+    font-size: 24px;
+    color: lightsteelblue;
+}
+.headicons{
+    flex: 1;
+}
+.parenticon{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+    list-style: none;
+}
+.icon a{
+    color: lightsteelblue;
+}
+/* header End  */
+
+/* order Start */
+.order{
+    margin-top: 50px;
+
+}
+.ordercart{
+    background-color: #222;
+    width: 60%;
+    margin-top: 40px;
+
+}
+.card{
+    display: flex;
+    margin-top: 20px;
+}
+.carddetails{
+    margin-left: 15px;
+
+}
+.details-fline{
+
+}
+.card-price{
+
+}
+.discount-price{
+
+}
+.actualprice{
+    opacity: 0.6;
+
+}
+.addbutton{
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    width: 114px;
+    height: 25px;
+
+}
+.addbutton button{
+    background-color: #444;
+    color: #fff;
+    border: none;
+    height: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+ 
+}
+.addbutton span{
+    background-color: #121212;
+    width: 45px;
+    height: 25px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+}
+
+
+/* delete icon */
+.deleteicon a{
+    margin-left: 20px;
+    color: lightsteelblue;
+}
