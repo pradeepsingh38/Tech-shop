@@ -40,24 +40,39 @@ body {
     margin-top: 50px;
 
 }
+
+/* order cart start */
 .ordercart{
     background-color: #222;
-    width: 60%;
+    width: 55%;
+    height: 100%;
     margin-top: 40px;
-
+    margin-left: 20px;
+    overflow-y: scroll;
 }
 .card{
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.h-line{
+    margin-top: 40px;
+    margin-left: 40px;
+    opacity: 0.6;
+    color: #222;
+
+    /* margin-bottom: 40px; */
 }
 .carddetails{
-    margin-left: 15px;
+    margin-left: 40px;
 
 }
 .details-fline{
 
 }
 .card-price{
+    margin-top: 20px;
 
 }
 .discount-price{
@@ -75,6 +90,7 @@ body {
     color: #fff;
     width: 114px;
     height: 25px;
+    margin-top: 20px;
 
 }
 .addbutton button{
@@ -97,9 +113,12 @@ body {
     outline: none;
 }
 
-
 /* delete icon */
 .deleteicon a{
-    margin-left: 20px;
+    margin-left: 140px;
     color: lightsteelblue;
 }
+/* order cart end */
+
+
+/* order summary start */
