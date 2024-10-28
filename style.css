@@ -401,6 +401,7 @@ header nav ul li a{
   .social-icons{
     margin: 25px 70px 0px 0px;
     display: flex;
+    justify-content: space-around;
 
     /* justify-content: space-between; */
     /* align-content: space-between;

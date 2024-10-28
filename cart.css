@@ -52,6 +52,13 @@ body {
     margin-top: 40px;
     margin-left: 20px;
     overflow-y: scroll;
+    /* overflow: auto; */
+
+}
+.ordercart::-webkit-scrollbar{
+    width: 5px;
+    height: 8px;
+    background-color: lightsteelblue;
 }
 .card{
     display: flex;
@@ -60,12 +67,16 @@ body {
     margin-bottom: 40px;
 }
 .h-line{
+    /* height: 5px; */
     margin-top: 40px;
     margin-left: 40px;
     opacity: 0.6;
-    color: #222;
+    /* color: #222; */
 
     /* margin-bottom: 40px; */
+}
+.hlines{
+    margin: 2px;
 }
 .carddetails{
     margin-left: 40px;
@@ -152,7 +163,17 @@ body {
 }
 .totalprice{
     margin-top: 35px;
+    
 }
 .checkout-btn{
     margin-top: -10px;
+    
+}
+.checkout-btn button{
+    width: 485px;
+    height: 40px;
+    color: white; 
+    background-color: red;
+    font-size: large;
+    border-radius: 5px;
 }
