@@ -1,6 +1,6 @@
 *{  
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
@@ -13,7 +13,7 @@ body {
 /* header Start  */
 .header{
     display: flex;
-    margin-top: 10px;   
+    margin: 20px 0px 0px 20px;   
 }
 .headings{
     flex: 1;
@@ -24,6 +24,8 @@ body {
     flex: 1;
 }
 .parenticon{
+    margin: 0px 20px 0px 0px;
+    gap: 40px;
     display: flex;
     justify-content: flex-end;
 }
@@ -38,6 +40,8 @@ body {
 /* order Start */
 .order{
     margin-top: 50px;
+    margin-bottom: 100px;
+
     display: flex;
 
 }
@@ -53,7 +57,7 @@ body {
     margin-left: 20px;
     overflow-y: scroll;
     /* overflow: auto; */
-
+    
 }
 .ordercart::-webkit-scrollbar{
     width: 5px;
@@ -67,17 +71,11 @@ body {
     margin-bottom: 40px;
 }
 .h-line{
-    /* height: 5px; */
-    margin-top: 40px;
-    margin-left: 40px;
     opacity: 0.6;
-    /* color: #222; */
+    width: 585px;
+    margin-left: 40px;
+}
 
-    /* margin-bottom: 40px; */
-}
-.hlines{
-    margin: 2px;
-}
 .carddetails{
     margin-left: 40px;
 
@@ -177,3 +175,105 @@ body {
     font-size: large;
     border-radius: 5px;
 }
+
+
+
+/*--footer start--- */
+.footerHome {
+    background-color: #111;
+    /* color: #fff; */
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 0px 40px 20px;
+
+  }
+  .footer-column1{
+    flex: 8;
+  }
+  .footer-column {
+    margin-left: 144px;
+    flex: 4;
+  }
+  
+  .footerHeading {
+    font-size: 18px;
+  }
+  .headDiscription{
+    margin-top: 15px;
+     font-size: 15px;
+    opacity: 0.7;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+    margin-top: 18px;
+  }
+  
+  .footer-column ul li a {
+    color: lightsteelblue;
+    opacity: 0.6;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #e63946;
+  }
+  
+  .footer-column form {
+    /* display: flex; */
+  }
+  
+  .footer-column1 input {
+    background-color: #111;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid lightsteelblue;
+    outline: none;
+    width: 70%;
+  }
+  
+  .footer-column1 button {
+    margin-top: 15px;
+    padding: 8px 80px 8px 20px;
+    /* padding: 19px; */
+    border: none;
+    border-radius: 7px;
+    background-color: #ec081b;
+    color: #fff;
+    cursor: pointer;
+    width: 30%;
+  }
+  
+/* -- footer Bottom Start -- */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 0px 0px;
+    border-top: 1px solid #333;
+
+  }
+  
+  .footerdisc {
+    margin: 25px 0px 0px 20px;
+    font-size: 14px;
+  }
+  
+.social-icons{
+    margin: 25px 70px 0px 0px;
+    display: flex;
+    gap: 20px;
+
+}
+/* -- footer Bottom Start -- */
