@@ -13,19 +13,26 @@ body {
 /* header Start  */
 .header{
     display: flex;
-    margin-top: 10px;   
+    margin: 20px 0px 0px 20px;   
 }
-.headings{
+.heading{
     flex: 1;
-    font-size: 24px;
-    color: lightsteelblue;
+    
 }
+.heading a {
+    font-size: 16px;
+    color: lightsteelblue;
+    text-decoration: none;
+  }
 .headicons{
     flex: 1;
 }
 .parenticon{
+    margin: 0px 20px 0px 0px;
+    gap: 40px;
     display: flex;
     justify-content: flex-end;
+
 }
 .icon{
     list-style: none;

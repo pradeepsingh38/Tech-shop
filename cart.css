@@ -15,10 +15,14 @@ body {
     display: flex;
     margin: 20px 0px 0px 20px;   
 }
-.headings{
+.heading{
     flex: 1;
-    font-size: 24px;
-    color: lightsteelblue;
+   
+}
+.heading a {
+  font-size: 16px;
+  color: lightsteelblue;
+  text-decoration: none;
 }
 .headicons{
     flex: 1;
@@ -127,6 +131,7 @@ body {
 
 /* delete icon */
 .deleteicon a{
+    position: relative;
     margin-left: 140px;
     color: lightsteelblue;
 }
@@ -139,7 +144,7 @@ body {
     margin-left: 60px;
 }
 .summary-heading{
-    margin-top: 30px;
+    margin-top: 40px;
 
 }
 .summary-details{
