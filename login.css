@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.signup-form {
+    background-color: #000;
+    padding: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.signup-form h1 {
+    color: #fff;
+    margin: 0px 500px 10px 0px;
+}
+
+.signup-form a {
+    color: #fff;
+    margin: 0px 160px 60px 0px;
+}
+.inputfield{
+    display: flex;
+    flex-direction: column;
+
+}
+.input-field{
+    margin: 20px 0px 20px 0px;
+    padding: 16px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/* .signup-form a {
+    color: #f00;
+    text-decoration: none;
+} */
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f00;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+
+  .line-text {
+    font-size: 18px;
+    color: #666;
+  }
+
+.social-btn {
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.facebook {
+    background-color: #4267B2;
+}
+
+.google {
+    background-color: #DB4437;
+}
+
+.twitter {
+    background-color: cyan;
+}
