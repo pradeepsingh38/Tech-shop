@@ -178,6 +178,7 @@ body {
     height: 100%;
     background-color: #1c1c1c;  
     color: lightsteelblue;
+
 }
 .Addcart h2{
     font-size: 24px;
@@ -186,13 +187,13 @@ body {
 }
 .Addcartrow1{
     display: flex;
-    margin: 80px 0px 0px 150px;
+    margin: 80px 170px;
 }
 .addproduct{
     height: 354px;
     width: 239px;
-    box-shadow: 0 0px 1px rgb(237, 232, 232);
-    margin: 3px 5px 3px 5px;
+    border: 1px solid  #444;
+    margin: 3px;
 }
 .prodimg {
     width: 100px;
@@ -200,8 +201,7 @@ body {
     object-fit: contain;
     margin: 10px 0px 35px 60px;}
 .proddetail{
-    padding: 0px 14px;
-    
+    margin: 0px 14px;    
 }
 .star{
     font-size: x-small;
@@ -256,7 +256,9 @@ body {
     justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 40px 0px 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
 }
 .dot-menu a li {
     width: 5px;
@@ -271,17 +273,17 @@ body {
 /*---our Advantages Start---*/
 .advantages{
     background-color: #1c1c1c;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 
 
 }
 .advantages h2{
-    margin-top: 80px;
+    margin: 80px 0px;
 }
 .advantage-name{
     display: flex;
     justify-content:space-around;
-    margin: 60px;
+    margin: 80px 60px;
 }
 .advantage-name .Delivery,
 .advantage-name .Brand,

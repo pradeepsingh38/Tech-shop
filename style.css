@@ -80,15 +80,15 @@ body {
     display: block; 
 }
 /* login tooltip End */
-
 /* header End  */
 
 
+/* banner image Start */
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px 0px 80px 0px;
+    margin: 130px 0px 80px 0px;
     background-color: #1c1c1c;
 }
 .hero-text{
@@ -126,6 +126,52 @@ margin-right: 20px;
     margin-top: 40px;
     width: 40%;
 }
+
+
+/* Small screens (max-width: 767px) */
+@media (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+        margin: 80px 0px 40px 0px;
+        padding: 20px;
+    }
+    .hero-text {
+        margin-right: 0;
+        text-align: center;
+    }
+    .hero-text h2 {
+        font-size: 24px;
+    }
+    .hero-text p {
+        font-size: 16px;
+    }
+    .herobutton {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .boat-bg-img{
+        margin-top: 40px;
+    }
+}
+
+/* Medium screens (min-width: 768px and max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+        margin: 100px 0px 60px 0px;
+    }
+    .hero-text h2 {
+        font-size: 30px;
+    }
+    .hero-text p {
+        font-size: 20px;
+    }
+    .herobutton {
+        width: 60%;
+        margin-top: 30px;
+    }
+}
+/* banner image End */
+
 /* Style  dot */
 .dot-menu {
     display: flex;
@@ -140,9 +186,7 @@ margin-right: 20px;
     border-radius: 50%;
     margin: 0 5px;
 }
-.boat-bg-img{
 
-}
 
 
 /* featured-products Start */
@@ -229,11 +273,13 @@ margin-right: 20px;
 }
 .product-filters{
     display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
 }
 .product-filters a{
     color: lightsteelblue;
     padding: 4px 8px; 
-    margin: 40px 90px;
+    margin: 40px 0px;
     border: none;
     cursor: pointer;
     text-decoration: none;
@@ -254,29 +300,33 @@ margin-right: 20px;
 .Addcart {
     width: 100%;
     height: 100%;
-    /* display: grid;
-    grid-template-columns: repeat(4,1fr); */
-    /* display: flex; */
     background-color: #1c1c1c;
-    padding: 40px 0px 40px 150px;
-    /* text-align: center; */
+    margin: 40px 0px;
     color: lightsteelblue;
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center; */
 }
 .Addcartrow1{
     display: flex;
+    justify-content: center;
 }
 .addproduct{
     height: 354px;
     width: 239px;
-    box-shadow: 0 0px 1px rgb(237, 232, 232);
-    margin: 3px 5px 3px 5px;}
+    border: 1px solid  #444;
+    /* box-shadow: 0 0px 1px rgb(237, 232, 232); */
+    margin: 3px;
+}
 .prodimg {
     width: 100px;
     height: 100px;
     object-fit: contain;
-    margin: 10px 0px 35px 60px;}
+    margin: 10px 0px 35px 60px;
+}
 .proddetail{
-    padding: 0px 14px;
+    margin: 0px 14px;
+    /* padding: 0px 14px; */
     /* display: grid;
     grid-template-columns: repeat(1 , 1fr);
     align-content: space-between;
@@ -347,7 +397,7 @@ margin-right: 20px;
 .advantage-name{
     display: flex;
     justify-content:space-around;
-    margin: 100px 60px 60px 40px;
+    margin: 100px 0px;
 }
 .advantage-name .Delivery,.advantage-name .Brand,.advantage-name .deels,.advantage-name .payments {
     display: flex; /* Use flexbox to align icon and text horizontally */
@@ -379,7 +429,7 @@ margin-right: 20px;
   .footer-container {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    /* width: 100%; */
     margin: 0px 0px 40px 20px;
 
   }
