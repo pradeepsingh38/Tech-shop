@@ -1,48 +1,47 @@
 *{
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 body {
-    background-color: #121212;
+    background-color: #1c1c1c;
     color: lightsteelblue;
 }
-header{
+
+/* header Start  */
+.header{
     display: flex;
-    /* background-color: black; */
-    background-color: #1c1c1c;
-    padding: 10px 20px;
-    justify-content: space-between;
-    align-items: center;
+    margin: 20px 0px 0px 20px;   
 }
-header div h5{
+.heading{
     flex: 1;
-    font-size: 24px;
-    color: #ffffff;
-}
-header nav{
-    flex: 1;
-}
-header nav ul{
-    display: flex;
-    justify-content: flex-end;
-    /* Align the icons to the right */
-
-}
-header nav ul li{
-    list-style: none;
-    padding: 10px; 
-
-
-}
-header nav ul li a{
-    color: #ffffff;
-
-}
-.ficon, .sicon, .ticon {
     
 }
+.heading a {
+    font-size: 16px;
+    color: lightsteelblue;
+    text-decoration: none;
+  }
+.headicons{
+    flex: 1;
+}
+.parenticon{
+    margin: 0px 20px 0px 0px;
+    gap: 40px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.icon{
+    list-style: none;
+}
+.icon a{
+    color: lightsteelblue;
+}
+/* header End  */
+
+
 .hero{
     display: flex;
     justify-content: space-between;
@@ -413,4 +412,3 @@ header nav ul li a{
   
 
   
-
