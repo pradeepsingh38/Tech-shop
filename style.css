@@ -11,8 +11,12 @@ body {
 
 /* header Start  */
 .header{
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 97%;
     display: flex;
-    margin: 20px 0px 0px 20px;   
+    margin: 20px 0px 0px 20px; 
 }
 .heading{
     flex: 1;
@@ -39,38 +43,79 @@ body {
 .icon a{
     color: lightsteelblue;
 }
+
+/* login tooltip Start */
+.ticon {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.ticon a{
+    color: lightsteelblue;
+
+}
+.user{
+    padding: 20px 20px;
+    margin: 10px 0px;
+    width: 260px;
+    height: 180px;
+    border: whitesmoke;
+    border: 1px solid rgb(90, 86, 86);
+    display:none;
+    background-color:#181A1C;
+    align-items: center;
+    justify-content: flex-start; 
+    position: absolute;
+    right: 10%;
+    font-size: smaller;
+}
+.register{
+    border: 1px solid grey;
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+    font-size: small;
+}
+.ticon:hover .user{
+    display: block; 
+}
+/* login tooltip End */
+
 /* header End  */
 
 
 .hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 286px;
-    padding-top: 80px;
+    margin: 80px 0px 80px 0px;
     background-color: #1c1c1c;
+}
+.hero-text{
+margin-right: 20px;
+}
+.boat-bg-img{
+    margin-left: 20px;
+
+}
+.hero-text h4{
+    opacity: 0.6;
 }
 .hero-text h2 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin: 15px 0px;
     
 }
-
 .hero-text p {
     font-size: 18px;
-}
-
-.hero-text .price {
     font-size: 24px;
-    color: #e60023;
 }
-
-.hero-text .price span {
+.hero-text span{
+    opacity: 0.6;
     text-decoration: line-through;
     font-size: 16px;
-    color: #888888;
+    margin-left: 10px;
 }
-
 .herobutton {
     background-color: #e60023;
     border-radius: 3px;
@@ -78,21 +123,38 @@ body {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
-    margin: 10px;
-    width: 90%;
+    margin-top: 40px;
+    width: 40%;
+}
+/* Style  dot */
+.dot-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 40px 0px 0px 0px;
+}
+.dot-menu a li {
+    width: 5px;
+    height: 5px;    
+    border-radius: 50%;
+    margin: 0 5px;
 }
 .boat-bg-img{
 
 }
+
+
+/* featured-products Start */
 .featured-products {
+    margin-top: 40px;
     padding: 40px;
     background-color: #1c1c1c;
 }
 
 .featured-products h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin: 40px 0px 20px 0px;
     text-align: center;
 }
 
@@ -274,22 +336,20 @@ body {
 
 /*---our Advantages Start---*/
 .advantages{
-    /* margin: 60px; */
     background-color: #1c1c1c;
+    margin-top: 80px;
+
 
 }
 .advantages h2{
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .advantage-name{
     display: flex;
     justify-content:space-around;
-    padding: 60px;
+    margin: 100px 60px 60px 40px;
 }
-.advantage-name .Delivery,
-.advantage-name .Brand,
-.advantage-name .deels,
-.advantage-name .payments {
+.advantage-name .Delivery,.advantage-name .Brand,.advantage-name .deels,.advantage-name .payments {
     display: flex; /* Use flexbox to align icon and text horizontally */
     align-items: center; /* Align items vertically in the center */
     gap: 15px; /* Add space between the icon and the text */
@@ -303,6 +363,8 @@ body {
     margin-top: 3px;
     display: inline-block;
 }
+/*---our Advantages End---*/
+
 
 
 
@@ -318,7 +380,8 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 0px 0px 40px 0px;
+    margin: 0px 0px 40px 20px;
+
   }
   .footer-column1{
     flex: 8;
@@ -329,11 +392,10 @@ body {
   }
   
   .footerHeading {
-    /* margin-top: 20px; */
     font-size: 18px;
   }
   .headDiscription{
-    margin-top: 5px;
+    margin-top: 15px;
      font-size: 15px;
     opacity: 0.7;
   }
@@ -365,7 +427,7 @@ body {
   
   .footer-column1 input {
     background-color: #111;
-    margin-top: 5px;
+    margin-top: 15px;
     padding: 10px;
     border: 1px solid lightsteelblue;
     outline: none;
@@ -373,7 +435,7 @@ body {
   }
   
   .footer-column1 button {
-    margin-top: 9px;
+    margin-top: 15px;
     padding: 8px 80px 8px 20px;
     /* padding: 19px; */
     border: none;
@@ -383,31 +445,30 @@ body {
     cursor: pointer;
     width: 30%;
   }
-  
+  /*--footer End--- */
+ 
 /* -- footer Bottom Start -- */
   .footer-bottom {
     display: flex;
     justify-content: space-between;
     margin: 40px 0px 0px 0px;
     border-top: 1px solid #333;
+
   }
   
   .footerdisc {
-    margin-top: 25px;
+    margin: 25px 0px 0px 20px;
     font-size: 14px;
   }
   
-  .social-icons{
+.social-icons{
     margin: 25px 70px 0px 0px;
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
 
-    /* justify-content: space-between; */
-    /* align-content: space-between;
-    flex-wrap: wrap; */
+}
+/* -- footer Bottom End -- */
 
-  }
-/* -- footer Bottom Start -- */
 
   
 

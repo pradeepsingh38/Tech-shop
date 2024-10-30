@@ -26,6 +26,19 @@ body {
     border: 1px solid #fff;
     text-align: center;
 }
+.close-btn {
+    position: absolute;
+    top: 74px;
+    right:34%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.close-btn:hover {
+    color: red;
+}
 
 .signup-form h1 {
     color: #fff;
