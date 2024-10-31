@@ -26,8 +26,11 @@ body {
     border: 1px solid #fff;
     text-align: center;
 }
-.close-btn {
-    position: absolute;
+/* .close-btn {
+
+    position: fixed;
+    top: 0px;
+    z-index: 1;
     top: 74px;
     right:34%;
     background: none;
@@ -35,7 +38,17 @@ body {
     color: #fff;
     font-size: 24px;
     cursor: pointer;
+} */
+
+.close-btn {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    background: none;
+    border: none;
+    margin-left: 400px;
 }
+
 .close-btn:hover {
     color: red;
 }
@@ -62,11 +75,6 @@ body {
     border: 1px solid #fff;
 }
 
-
-/* .signup-form a {
-    color: #f00;
-    text-decoration: none;
-} */
 .signup-btn {
     width: 100%;
     padding: 10px;
