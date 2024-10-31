@@ -12,7 +12,7 @@ body {
 /* header Start  */
 .header{
     display: flex;
-    margin: 20px 0px;   
+    margin: 20px 20px;   
 }
 .heading{
     flex: 1;  
