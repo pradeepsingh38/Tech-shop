@@ -172,6 +172,7 @@ body {
     background-color: red;
     font-size: large;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* order summary End */
 

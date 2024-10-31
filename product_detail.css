@@ -120,6 +120,16 @@ body {
     line-height: 20px;
     border-radius: 2px;
 }
+.addcartbtn{
+    margin-top: 20px;
+    border: 1px solid #595A63;
+    color:  lightsteelblue;
+    background-color: red;
+    border-radius: 5px;
+    height: 45px;
+    width: 200px;
+    cursor: pointer;
+}
 
 /* Small screens (max-width: 767px) */
 @media (max-width: 767px) {
